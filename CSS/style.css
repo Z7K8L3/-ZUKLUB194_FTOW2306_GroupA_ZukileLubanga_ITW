@@ -4,19 +4,31 @@ body {
 
 html {
   border-style: solid;
-  border-width: 4px;
+  border-width: 2px;
 }
 
-h1 {
+header {
+  background-color: rgb(95, 91, 91);
   text-align: center;
-}
-
-p {
+  color: rgb(255, 255, 255);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
 
 nav {
-  background-color: rgb(195, 195, 195);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  color: rgb(0, 0, 0);
+  background-color: rgb(138, 138, 138);
+}
+
+a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
 }
 
 a:hover {
@@ -30,18 +42,29 @@ a:active {
 }
 
 a:link {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
 }
 
-h2 {
+.resume-section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-heading {
   font-family: "Times New Roman", Times, serif;
 }
 
-h3 {
+.section-content {
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-  background-color: rgb(195, 195, 195);
+  background-color: rgb(138, 138, 138);
 }
