@@ -1,3 +1,4 @@
+/* --- General --- */
 body {
   background-color: lightgray;
   margin: auto;
@@ -6,62 +7,78 @@ body {
 html {
   border-style: solid;
   border-width: 2px;
-  border-color: rgb(95, 91, 91);
+  border-color: #5f5b5b;
 }
 
+/* --- Header --- */
 header {
-  background-color: rgb(95, 91, 91);
+  background-color: #5f5b5b;
   padding: 15px;
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: underline;
-  border-radius;
 }
 
+/* ---- Image Icon ---- */
 .picture-me {
   border-style: solid;
-  border-color: rgb(124, 121, 121) ;
+  border-color: #7c7979;
   border-radius: 50%;
 }
 
+/* ---- Nav --- */
 nav {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: medium;
   color: rgb(255, 255, 255);
-  margin-right: 440px;
-  padding: 1.9%;
+  margin-right: auto;
+  padding: 15px;
+  padding-left: 10px;
   overflow: auto;
-  background-color: rgb(51, 51, 51);
+  background-color: #333333;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #e7ebf1;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4px;
+}
+
+/* --- Links --- */
 a:link {
-  color: rgb(255, 255, 255);
+  color: #e7ebf1;
 }
 
 a:visited {
-  color: rgb(196, 144, 47);
+  color: #9f7e5d;
 }
 
 a:hover {
   color: green;
-  text-decoration: underline;
-}
-
-a:hover:not(.active) {
-  background-color: #111;
 }
 
 a:active {
-  color: cyan;
+  color: rgb(255, 153, 0);
   text-decoration: underline;
 }
 
-.active {
-  background-color: #04aa6d;
-}
-
+/* --- Content --- */
 .resume-section {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 39px;
@@ -79,13 +96,8 @@ a:active {
   font-style: oblique;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* --- Contact --- */
 footer {
   color: white;
-  background-color: rgb(50, 51, 51);
+  background-color: #333333;
 }
